@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>HTML Elements</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="icon" href="imgs/icon.png"/>
+</head>
+<body>
+    <h1>HTML Elements</h1>
+    <p>
+        An HTML element usually consists of a 
+        <strong>start</strong>
+         tag and 
+        <strong>end</strong>
+         tag,
+        with the content inserted in between:
+    <p>Click here to <a href="https://narcys20.github.io/Learning-html5-language-example6/" target="_blank">example</a>.</p>
+    <p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+    <p1>&lt;p&gt;My first paragraph.&lt;/p&gt;</p1><br><br>
+    <table class="w3-table-all notranslate">
+    <tbody>
+    <tr>
+    <th style="width:33%">Start tag</th>
+    <th style="width:33%">Element content</th>
+    <th>End tag</th>
+    </tr>
+        <tr>
+        <td>&lt;h1&gt;</td>
+            <td>My First Heading</td>
+            <td>&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+        <td>&lt;p&gt;</td>
+            <td>My first paragraph.</td>
+            <td>&lt;/p&gt;</td>
+            <tr>
+        <td>&lt;br&gt;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+        </tr>
+    </tbody>
+    </table><br>
+    <p2>HTML elements with no content are called empty elements. Empty elements do not have an end tag, such as the &lt;br&gt; element (which indicates a line break).</p2>
+    <h1>Nested HTML Elements</h1>
+    <p>HTML elements can be nested (elements can contain elements).<br>
+All HTML documents consist of nested HTML elements.<br>
+This example contains four HTML elements:</p>
+    <p4>Example:</p4><br><br>
+    <p3>
+&lt;html&gt;<br></p3>
+<p3>&lt;body&gt;<br></p3>
+<p3>&lt;h1>My First Heading&lt;/h1&gt;<br></p3>
+<p3>&lt;p>My first paragraph.&lt;/p&gt;<br></p3>
+<p3>&lt;/body&gt;<br></p3>
+<p3>&lt;/html&gt;<br>
+    </p3>
+    <h2>Example Explained</h2>
+    <p4>The &lt;html&gt; element defines the whole document.<br></p4>
+    <p4>It has a start tag &lt;html&gt; and an end tag &lt;/html&gt;.<br></p4>
+<p4>The element content is another HTML element (the &lt;body&gt; element).</p4><br><br>
+    <p5>Example:</p5><br>
+    <p6>&lt;html&gt;</p6><br>
+<p6>&lt;body&gt;</p6><br>
+<p6>&lt;h1>My First Heading&lt;/h1&gt;<br></p6>
+<p6>&lt;p&gt;My first
+        paragraph.&lt;/p&gt;<br></p6>
+
+<p6>&lt;/body&gt;<br></p6>
+<p6>&lt;/html&gt;</p6><br><br>
+    <p4>The &lt;body&gt; element defines the document body.<br></p4>
+
+<p4>It has a start tag &lt;body&gt; and an end tag &lt;/body&gt;.<br></p4>
+
+<p4>The element content is two other HTML elements (&lt;h1&gt; and &lt;p&gt;).</p4><br><br>
+    <p5>Example:</p5><br><br>
+    <p4>&lt;body&gt;<br></p4>
+
+<p4>&lt;h1&gt;My First Heading&lt;/h1&gt;<br></p4>
+<p4>&lt;p&gt;My first paragraph.&lt;/p&gt;<br></p4>
+<p4>&lt;/body&gt;</p4><br><br>
+    <p5>The <strong>&lt;h1&gt;</strong> element defines a <strong>heading</strong>.<br></p5>
+
+<p5>It has a <strong>start</strong> tag &lt;h1&gt; and an <strong>end</strong> tag &lt;/h1&gt;.<br></p5>
+
+<p5>The element <strong>content</strong> is: My First Heading.</p5><br><br>
+    <p6>&lt;h1&gt;My First Heading&lt;/h1&gt;</p6><br><br>
+     <p5>The <strong>&lt;p&gt;</strong> element defines a <strong>paragraph</strong>.<br></p5>
+
+<p5>It has a <strong>start</strong> tag &lt;p&gt; and an <strong>end</strong> tag &lt;/p&gt;.<br></p5>
+
+<p5>The element <strong>content</strong> is: My First paragraph.</p5><br><br>
+    <p6>&lt;h1&gt;My First paragraph&lt;/p&gt;</p6><br>
+    <h4>Do Not Forget the End Tag</h4>
+    <p7>Some HTML elements will display correctly, even if you forget the end tag:</p7><br><br>
+    <p8>&lt;html&gt;<br></p8>
+<p8>&lt;body&gt;<br></p8>
+<p8>&lt;p&gt;This is a paragraph<br></p8>
+<p8>&lt;p&gt;This is a paragraph<br></p8>
+<p8>&lt;/body&gt;<br></p8>
+<p8>&lt;/html&gt;</p8><br><br>
+    <p9>The example above works in all browsers, because the closing tag is considered optional.</p9><br><br>
+    <p10><strong>Never rely on this. It might produce unexpected results and/or errors if you forget the end tag.</strong></p10>
+    <h1>Empty HTML Elements</h1>
+    <p11>HTML elements with no content are called empty elements.<br></p11>
+
+    <p11>&lt;br&gt; is an empty element without a closing tag (the</p11><p11>&lt;br&gt; tag defines a line break).<br></p11>
+
+<p11>Empty elements can be "closed" in the opening tag like this: &lt;br/&gt;.<br></p11>
+
+    <p11>HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you <p11>must close all HTML elements properly.</p11></p11>
+    <h2>Use Lowercase Tags
+</h2>
+    <p12>HTML tags are not case sensitive: &lt;P&gt; means the same as &lt;p&gt;.<br></p12>
+    <p12>The HTML5 standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for <p12>stricter document types XHTML.</p12><br></p12><br>
+    <p13><strong>At W3Schools we always use lowercase tags.</strong></p13><br><br>
+    <input class="MyButton" onclick="window.location.href='https://narcys20.github.io/HTML-Basic/'" type="button" value="<Previous page" target="_blank"/><input class="MyButton" onclick="window.location.href=' https://narcys20.github.io/HTML-Attributes/'" type="button" value="Next page>" target="_blank"/>
+</body>
+</html>
